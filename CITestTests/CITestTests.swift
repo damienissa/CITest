@@ -13,7 +13,7 @@ class CITestTests: XCTestCase {
 
     func testSquare() {
     
-        let mock = 8
+        let mock = 9
         let number = 3
         
         XCTAssertEqual(mock, number.square())

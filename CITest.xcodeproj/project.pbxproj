@@ -38,11 +38,15 @@
 		15410D9421C6ECCF00CD2DB0 /* CITestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CITestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15410D9821C6ECCF00CD2DB0 /* CITestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CITestTests.swift; sourceTree = "<group>"; };
 		15410D9A21C6ECCF00CD2DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		159E039EA053E90E005F354A /* Pods-CITest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CITest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CITest/Pods-CITest.debug.xcconfig"; sourceTree = "<group>"; };
+		30A1220FE8989E346238361C /* Pods-CITestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CITestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CITestTests/Pods-CITestTests.release.xcconfig"; sourceTree = "<group>"; };
 		7097F307665E5209F41D3B5D /* Pods-CITestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CITestTests.release.xcconfig"; path = "Target Support Files/Pods-CITestTests/Pods-CITestTests.release.xcconfig"; sourceTree = "<group>"; };
 		B5B7492DBD97E0AE94ED0D5E /* Pods_CITestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CITestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E2415A65F6AC6A3DC592BA /* Pods_CITest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CITest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2B35B772F2FADBAF7705C5 /* Pods-CITest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CITest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CITest/Pods-CITest.release.xcconfig"; sourceTree = "<group>"; };
 		D3ABE2F78D6F0BD9EB0D4BFE /* Pods-CITest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CITest.debug.xcconfig"; path = "Target Support Files/Pods-CITest/Pods-CITest.debug.xcconfig"; sourceTree = "<group>"; };
 		D7458B79C929883B6E752498 /* Pods-CITest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CITest.release.xcconfig"; path = "Target Support Files/Pods-CITest/Pods-CITest.release.xcconfig"; sourceTree = "<group>"; };
+		E3779D47076B3BE28ADCD2D2 /* Pods-CITestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CITestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CITestTests/Pods-CITestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F9D1BB429E6CAA0D566EF741 /* Pods-CITestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CITestTests.debug.xcconfig"; path = "Target Support Files/Pods-CITestTests/Pods-CITestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +128,10 @@
 				D7458B79C929883B6E752498 /* Pods-CITest.release.xcconfig */,
 				F9D1BB429E6CAA0D566EF741 /* Pods-CITestTests.debug.xcconfig */,
 				7097F307665E5209F41D3B5D /* Pods-CITestTests.release.xcconfig */,
+				159E039EA053E90E005F354A /* Pods-CITest.debug.xcconfig */,
+				BC2B35B772F2FADBAF7705C5 /* Pods-CITest.release.xcconfig */,
+				E3779D47076B3BE28ADCD2D2 /* Pods-CITestTests.debug.xcconfig */,
+				30A1220FE8989E346238361C /* Pods-CITestTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -440,7 +448,7 @@
 		};
 		15410D9E21C6ECCF00CD2DB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3ABE2F78D6F0BD9EB0D4BFE /* Pods-CITest.debug.xcconfig */;
+			baseConfigurationReference = 159E039EA053E90E005F354A /* Pods-CITest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,7 +467,7 @@
 		};
 		15410D9F21C6ECCF00CD2DB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7458B79C929883B6E752498 /* Pods-CITest.release.xcconfig */;
+			baseConfigurationReference = BC2B35B772F2FADBAF7705C5 /* Pods-CITest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -478,7 +486,7 @@
 		};
 		15410DA121C6ECCF00CD2DB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9D1BB429E6CAA0D566EF741 /* Pods-CITestTests.debug.xcconfig */;
+			baseConfigurationReference = E3779D47076B3BE28ADCD2D2 /* Pods-CITestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,7 +508,7 @@
 		};
 		15410DA221C6ECCF00CD2DB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7097F307665E5209F41D3B5D /* Pods-CITestTests.release.xcconfig */;
+			baseConfigurationReference = 30A1220FE8989E346238361C /* Pods-CITestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

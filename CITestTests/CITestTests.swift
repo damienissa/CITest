@@ -18,4 +18,12 @@ class CITestTests: XCTestCase {
         
         XCTAssertEqual(mock, number.square())
     }
+    
+    func testFailureCase() {
+        
+        let mock = 9
+        let number = 3
+        
+        XCTAssertNotEqual(mock, number.square())
+    }
 }
